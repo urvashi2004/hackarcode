@@ -1,0 +1,428 @@
+/* .hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    
+
+  }
+  .hero .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(107, 114, 124);
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    mix-blend-mode:hard-light;
+  }
+  .hero video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+.hero .overlay{
+flex-basis: 30%;
+} 
+.hero .first-content{
+    font-size: 100px;
+    color: aliceblue;
+    line-height: .9;
+    margin-bottom: 40px;
+}
+  .hero .heroContent {
+    flex-basis: 70%;
+    height: max-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    column-gap: 3rem;
+    margin: auto;
+    background: #000000;
+  }
+
+  .hero .third-content{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      z-index: 0;
+  }
+  .hero .l-third-con{
+    display: flex ;
+    color: rgb(255, 253, 253);
+    align-items: center;
+    gap: 10px;
+  }
+  .l-third-con .loc{
+    padding: 9px;
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+    margin: 2px 5px ;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.loc-info{
+  font-size: 25px;
+}
+
+  .r-third-con button{
+    outline: none;
+    border: 2px solid black ;
+    padding: 10px 100px ;
+    margin-left: 80px;
+    border-radius: 30px;
+    color: purple;
+    background-color: lightpink;
+    font-size: 35px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .r-third-con button:hover{
+    color: rgb(35, 243, 63);
+    background-color: rgb(48, 16, 234);
+    border: 2px solid rgb(255, 255, 255) ;
+  }
+  .fourth-content{
+    padding: 20px 5px;
+    margin: 20px 0px;
+  }
+  .fourth-content span{
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .fourth-content span:hover{
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  .hero .textDiv {
+    padding: 2rem 0;
+  }
+
+  .hero .textDiv div{
+    font-size: 100px;
+    display: inline-block;
+  }
+  .anim{
+    color: rgb(255, 153, 0);
+  }
+  @keyframes rotat{
+    0%{
+        transform: translateY(-200px) rotate(0deg);
+        color: rgb(1, 1, 1);
+    }
+    20%{
+        transform:translateY(-150px) rotate(360deg);
+        color: rgb(38, 255, 0);
+    }
+    40%{
+        transform:translateY(-100px) rotate(720deg) ;
+        color: rgb(0, 102, 254);
+    }
+    60%{
+        transform: translateY(-50px) rotate(1080deg);
+        color: rgb(200, 0, 255);
+    }
+    80%{
+        transform:translateY(0px) rotate(1440deg) ;
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+  }
+  @keyframes rotat1{
+    0%{
+        transform: translateY(200px) rotate(0deg);
+        color: rgb(1, 1, 1);
+    }
+    20%{
+        transform:translateY(150px) rotate(360deg);
+        color: rgb(38, 255, 0);
+    }
+    40%{
+        transform:translateY(100px) rotate(720deg) ;
+        color: rgb(0, 102, 254);
+    }
+    60%{
+        transform: translateY(50px) rotate(1080deg);
+        color: rgb(200, 0, 255);
+    }
+    80%{
+        transform:translateY(0px) rotate(1440deg) ;
+        color: rgb(255, 251, 251);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+  }
+ 
+  .anim1,.anim3,.anim5{
+    animation: rotat 3s  infinite;
+  }
+  .anim2,.anim4,.anim6{
+    animation: rotat1 3s  infinite;
+  } */
+
+  .hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+  }
+  
+  .hero .overlay {
+    flex-basis: 30%;
+  }
+  
+  .hero .heroContent {
+    flex-basis: 70%;
+    height: max-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: #000000;
+  }
+  
+  .hero .first-content {
+    font-size: 80px;
+    color: #FFD700; /* Yellowish color */
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  
+  .hero .third-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .l-third-con {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .l-third-con .loc {
+    padding: 9px;
+    border: 2px solid #FFD700; /* Yellowish color */
+    color: #FFD700; /* Yellowish color */
+    margin: 2px 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .loc-info {
+    font-size: 25px;
+  }
+  
+  .r-third-con button {
+    outline: none;
+    border: 2px solid #4B0082; /* Dark violet color */
+    padding: 10px 100px;
+    margin-left: 80px;
+    border-radius: 30px;
+    color: #4B0082; /* Dark violet color */
+    background-color: #FFD700; /* Yellowish color */
+    font-size: 35px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .r-third-con button:hover {
+    color: #FFD700; /* Yellowish color */
+    background-color: #4B0082; /* Dark violet color */
+    border: 2px solid #FFFFFF;
+  }
+  
+  .fourth-content {
+    padding: 20px 5px;
+    margin: 20px 0px;
+  }
+  
+  .fourth-content span {
+    font-size: 20px;
+    color: #FFD700; /* Yellowish color */
+  }
+  
+  .fourth-content span:hover {
+    color: #4B0082; /* Dark violet color */
+    text-decoration: underline;
+  }
+  
+  .hero .textDiv {
+    padding: 2rem 0;
+  }
+  
+  .hero .textDiv div {
+    font-size: 100px;
+    display: inline-block;
+  }
+  
+  .anim {
+    color: #FFD700; /* Yellowish color */
+  }
+  
+  /* Animations */
+  @keyframes rotat {
+    0% {
+      transform: translateY(-200px) rotate(0deg);
+      color: #000000;
+    }
+    20% {
+      transform: translateY(-150px) rotate(360deg);
+      color: #4B0082; /* Dark violet color */
+    }
+    40% {
+      transform: translateY(-100px) rotate(720deg);
+      color: #FFD700; /* Yellowish color */
+    }
+    60% {
+      transform: translateY(-50px) rotate(1080deg);
+      color: #FFFFFF;
+    }
+    80% {
+      transform: translateY(0px) rotate(1440deg);
+      color: #4B0082; /* Dark violet color */
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes rotat1 {
+    0% {
+      transform: translateY(200px) rotate(0deg);
+      color: #000000;
+    }
+    20% {
+      transform: translateY(150px) rotate(360deg);
+      color: #4B0082; /* Dark violet color */
+    }
+    40% {
+      transform: translateY(100px) rotate(720deg);
+      color: #FFD700; /* Yellowish color */
+    }
+    60% {
+      transform: translateY(50px) rotate(1080deg);
+      color: #FFFFFF;
+    }
+    80% {
+      transform: translateY(0px) rotate(1440deg);
+      color: #4B0082; /* Dark violet color */
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .anim1,
+  .anim3,
+  .anim5 {
+    animation: rotat 3s infinite;
+  }
+  
+  .anim2,
+  .anim4,
+  .anim6 {
+    animation: rotat1 3s infinite;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .hero .first-content {
+      font-size: 60px;
+      text-align: center;
+    }
+  
+    .hero .heroContent {
+      padding: 0.5rem;
+    }
+    .hero .third-content{
+      flex-direction: column;
+      gap: 25px;
+    }
+    .r-third-con button {
+      padding: 8px 60px;
+      font-size: 25px;
+      margin-left: 20px;
+    }
+  
+    .loc-info {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 960px) {
+    .hero .first-content {
+      font-size: 70px;
+      text-align: center;
+    }
+  
+    .hero .heroContent {
+      padding: 0.5rem;
+    }
+  
+    .r-third-con button {
+      padding: 10px 80px;
+      font-size: 30px;
+      margin-left: 40px;
+    }
+  
+    .loc-info {
+      font-size: 22px;
+    }
+  }
+  
+  @media screen and (min-width: 961px) and (max-width: 1200px) {
+    .hero .first-content {
+      font-size: 90px;
+    }
+  
+    .hero .heroContent {
+      padding: 1rem;
+    }
+  
+    .r-third-con button {
+      padding: 10px 90px;
+      font-size: 32px;
+      margin-left: 60px;
+    }
+  
+    .loc-info {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .hero .first-content {
+      font-size: 100px;
+      line-height: .9;
+    }
+  
+    .hero .heroContent {
+      padding: 1.5rem;
+    }
+  
+    .r-third-con button {
+      padding: 10px 100px;
+      font-size: 35px;
+      margin-left: 80px;
+    }
+  
+    .loc-info {
+      font-size: 25px;
+    }
+  }
