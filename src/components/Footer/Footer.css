@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    background: #22103a;
+    color: #fff;
+    padding: 5px 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.footer-social-media-icons{
+    display: flex;
+    column-gap: 80px;
+    
+}
+.icons{
+    font-size: 30px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: rgb(236, 173, 78);
+}
+@media screen and (max-width: 768px) {
+    .footer-social-media-icons{
+        display: flex;
+        column-gap: 30px;
+    }
+}
