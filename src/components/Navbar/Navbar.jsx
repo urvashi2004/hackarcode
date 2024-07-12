@@ -43,34 +43,34 @@ const Navbar = () => {
             <div className={active}>
                 <ul className="navLists flex">
                     <li className="navItem">
-                        <Link to="/" className="navLink" onClick={()=>setMenu('home')} id={menu==="home"?"active":""}>Home</Link>
+                        <Link to="/" className="navLink" onClick={()=>{setMenu('home'); removeNavbar();}} id={menu==="home"?"active":""}>Home</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/part" className="navLink" onClick={()=>setMenu('partners')} id={menu==="partners"?"active":""} >Partners</Link>
+                        <Link to="/part" className="navLink" onClick={()=>{setMenu('partners'); removeNavbar();}} id={menu==="partners"?"active":""} >Partners</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/track" className="navLink" onClick={()=>setMenu('tracks')} id={menu==="tracks"?"active":""} >Tracks</Link>
+                        <Link to="/track" className="navLink" onClick={()=>{setMenu('tracks'); removeNavbar();}} id={menu==="tracks"?"active":""} >Tracks</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/human" className="navLink" onClick={()=>setMenu('humans')} id={menu==="humans"?"active":""} >Humans</Link>
+                        <Link to="/human" className="navLink" onClick={()=>{setMenu('humans'); removeNavbar();}} id={menu==="humans"?"active":""} >Humans</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/schedule" className="navLink" onClick={()=>setMenu('schedule')} id={menu==="schedule"?"active":""} >Schedule</Link>
+                        <Link to="/schedule" className="navLink" onClick={()=>{setMenu('schedule'); removeNavbar();}} id={menu==="schedule"?"active":""} >Schedule</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/prize" className="navLink" onClick={()=>setMenu('prize')} id={menu==="prize"?"active":""} >Prize</Link>
+                        <Link to="/prize" className="navLink" onClick={()=>{setMenu('prize'); removeNavbar();}} id={menu==="prize"?"active":""} >Prize</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/swag" className="navLink" onClick={()=>setMenu('swag')} id={menu==="swag"?"active":""} >Swag</Link>
+                        <Link to="/swag" className="navLink" onClick={()=>{setMenu('swag'); removeNavbar();}} id={menu==="swag"?"active":""} >Swag</Link>
                     </li>
                     <li className="navItem" id='ab'>
-                        <Link to="/aboout" className="navLink" onClick={()=>setMenu('about')} id={menu==="about"?"active":""} >About Us</Link>
+                        <Link to="/aboout" className="navLink" onClick={()=>{setMenu('about'); removeNavbar();}} id={menu==="about"?"active":""} >About Us</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/faq" className="navLink" onClick={()=>setMenu('faq')} id={menu==="faq"?"active":""} >FAQ</Link>
+                        <Link to="/faq" className="navLink" onClick={()=>{setMenu('faq'); removeNavbar();}} id={menu==="faq"?"active":""} >FAQ</Link>
                     </li>
                 </ul>
-
+                
                 <div onClick={removeNavbar} className="closeNavbar">
                     <AiFillCloseCircle className='icon'/>
                 </div>
