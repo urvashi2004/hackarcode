@@ -39,7 +39,7 @@ const Prize = () => {
                 <p className='paara2'>Winner</p>
               </div>
           </div>
-          <div className={`second-pos ${(screenWidth<=1200)?"":"remove"}`}>
+          <div className="second-pos">
               <img src={cir2} alt="" />
               <div className="text-prize">
                 <div className="text-prize-pr1">

@@ -10,7 +10,6 @@ import Humans from './components/Humans/Humans';
 import Schedule from './components/Schedule/Schedule';
 import Faq from './components/Faqs/Faq';
 import Prize from './components/Prize/Prize';
-import Swag from './components/Swag/Swag';
 
 function App() {
 
@@ -24,8 +23,7 @@ function App() {
         <Route exact path="/track" element={<Track/>} />
         <Route exact path="/human" element={<Humans/>} />
         <Route exact path="/schedule" element={<Schedule/>} />
-        <Route exact path="/prize" element={<Prize/>} />        
-        <Route exact path="/swag" element={<Swag/>} />        
+        <Route exact path="/prize" element={<Prize/>} />     
         <Route exact path="/aboout" element={<About/>} />
         <Route exact path="/faq" element={<Faq/>} />
       </Routes>
