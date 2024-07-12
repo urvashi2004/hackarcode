@@ -153,6 +153,7 @@
     padding-left: 25px;
     transition: all 0.3s ease;
     overflow: hidden;
+    text-align: justify;
 }
 
 .archive {
