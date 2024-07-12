@@ -30,8 +30,8 @@ const Prize = () => {
         <div className="upper-cont-position">
           <div className={`second-pos ${(screenWidth<=1200)?"remove":""}`}>
               <img src={cir2} alt="" />
-              <div className="text-price">
-                <div className="text-price-pr1">
+              <div className="text-prize">
+                <div className="text-prize-pr1">
                   <div className="icon"><FaIndianRupeeSign/></div>
                   <span className='pr'>35k</span>
                 </div> 
@@ -40,8 +40,8 @@ const Prize = () => {
           </div>
           <div className="first-pos">
               <img src={cir1} alt="" />
-              <div className="text-price">
-                <div className="text-price-pr2">
+              <div className="text-prize">
+                <div className="text-prize-pr2">
                   <div className="icon"><FaIndianRupeeSign/></div>
                   <span className='pr'>50k</span>
                 </div> 
@@ -50,8 +50,8 @@ const Prize = () => {
           </div>
           <div className={`second-pos ${(screenWidth<=1200)?"":"remove"}`}>
               <img src={cir2} alt="" />
-              <div className="text-price">
-                <div className="text-price-pr1">
+              <div className="text-prize">
+                <div className="text-prize-pr1">
                   <div className="icon"><FaIndianRupeeSign/></div>
                   <span className='pr'>35k</span>
                 </div> 
@@ -60,8 +60,8 @@ const Prize = () => {
           </div>
           <div className="third-pos">
               <img src={cir3} alt="" />
-              <div className="text-price">
-                <div className="text-price-pr3">
+              <div className="text-prize">
+                <div className="text-prize-pr3">
                   <div className="icon"><FaIndianRupeeSign/></div>
                   <span className='pr'>20k</span>
                 </div> 

@@ -58,7 +58,7 @@ const Navbar = () => {
                         <Link to="/schedule" className="navLink" onClick={()=>setMenu('schedule')} id={menu==="schedule"?"active":""} >Schedule</Link>
                     </li>
                     <li className="navItem">
-                        <Link to="/prize" className="navLink" onClick={()=>setMenu('prize')} id={menu==="prize"?"active":""} >Price</Link>
+                        <Link to="/prize" className="navLink" onClick={()=>setMenu('prize')} id={menu==="prize"?"active":""} >Prize</Link>
                     </li>
                     <li className="navItem">
                         <Link to="/swag" className="navLink" onClick={()=>setMenu('swag')} id={menu==="swag"?"active":""} >Swag</Link>

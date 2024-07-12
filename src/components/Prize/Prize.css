@@ -60,7 +60,7 @@
     animation: rot 250s infinite;
 }
 
-.text-price{
+.text-prize{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -73,44 +73,44 @@
     color: #ffffffd6;
 }
 
-.text-price-pr1,.text-price-pr2,.text-price-pr3{
+.text-prize-pr1,.text-prize-pr2,.text-prize-pr3{
     display: flex ;
 }
-.text-price-pr1 .icon{
+.text-prize-pr1 .icon{
     font-size: 40px;
     margin-top: 10px;
 }
-.text-price-pr1 .pr{
+.text-prize-pr1 .pr{
     font-size: 55px;
 }
-.text-price .paara{
+.text-prize .paara{
     font-size: 35px;
     margin-top: -10px;
 
 }
 
-.text-price-pr2 .icon{
+.text-prize-pr2 .icon{
     font-size: 60px;
     margin-top: 12%;
 }
-.text-price-pr2 .pr{
+.text-prize-pr2 .pr{
     font-size: 115px;
     line-height: .9;
 }
-.text-price .paara2{
+.text-prize .paara2{
     font-size: 55px;
     margin-top: -15px;
 }
 
-.text-price-pr3 .icon{
+.text-prize-pr3 .icon{
     font-size: 35px;
     margin-top: 5%;
 }
-.text-price-pr3 .pr{
+.text-prize-pr3 .pr{
     font-size: 50px;
     line-height: .9;
 }
-.text-price .paara3{
+.text-prize .paara3{
     font-size: 25px;
 }
 
@@ -192,19 +192,19 @@
         height: 100%;
     }
     
-    .text-price .paara {
+    .text-prize .paara {
         font-size: 25px;
     }
-    .text-price-pr2 .pr {
+    .text-prize-pr2 .pr {
         font-size: 75px;
     }
-    .text-price-pr2 .icon {
+    .text-prize-pr2 .icon {
         font-size: 40px;
     }
-    .text-price .paara2 {
+    .text-prize .paara2 {
         font-size: 50px;
     }
-    .text-price .paara3 {
+    .text-prize .paara3 {
         font-size: 20px;
     }
     .upper-cont-thirdcon {
@@ -233,16 +233,16 @@
     .second-pos img, .first-pos img, .third-pos img{
         height: 100%;
     }
-    .text-price .paara {
+    .text-prize .paara {
         font-size: 27px;
     }
-    .text-price-pr2 .pr {
+    .text-prize-pr2 .pr {
         font-size: 90px;
     }
-    .text-price .paara2 {
+    .text-prize .paara2 {
         font-size: 45px;
     }
-    .text-price .paara3 {
+    .text-prize .paara3 {
         font-size: 25px;
     }
     .upper-cont-thirdcon {
@@ -264,16 +264,16 @@
         flex-direction: row;
         column-gap: 20px;
     }
-    .text-price .paara {
+    .text-prize .paara {
         font-size: 33px;
     }
-    .text-price-pr2 .pr {
+    .text-prize-pr2 .pr {
         font-size: 110px;
     }
-    .text-price .paara2 {
+    .text-prize .paara2 {
         font-size: 55px;
     }
-    .text-price .paara3 {
+    .text-prize .paara3 {
         font-size: 25px;
     }
     .upper-cont-thirdcon {
@@ -294,16 +294,16 @@
         flex-direction: row;
         column-gap: 20px;
     }
-    .text-price .paara {
+    .text-prize .paara {
         font-size: 45px;
     }
-    .text-price-pr2 .pr {
+    .text-prize-pr2 .pr {
         font-size: 120px;
     }
-    .text-price .paara2 {
+    .text-prize .paara2 {
         font-size: 60px;
     }
-    .text-price .paara3 {
+    .text-prize .paara3 {
         font-size: 37px;
     }
     .upper-cont-thirdcon {
