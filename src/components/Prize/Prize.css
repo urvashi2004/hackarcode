@@ -23,6 +23,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     padding: 25px 0;
+    overflow: hidden;
 }
 .upper-cont-position{
 
@@ -175,10 +176,26 @@
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 415px) {
     .upper-cont .heading1 {
-        font-size: 35px;
+        font-size: 1.5rem;
     }
+}
+
+@media screen and (min-width: 415px) and (max-width: 630px) {
+    .upper-cont .heading1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 630px) and (max-width: 768px) {
+    .upper-cont .heading1 {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
     .upper-cont-position {
         flex-direction: column;
         row-gap: 20px;

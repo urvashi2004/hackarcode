@@ -187,6 +187,10 @@
   align-items: center;
   justify-content: center;
   column-gap: .4rem;
+  max-height: 100%;
+  overflow-y: auto;
+  scrollbar-color: #F1950B #22103a;
+  scrollbar-width: thin;
 }
 
 .header .navBar .navLists .navItem .navLink {
@@ -261,7 +265,7 @@
       flex-direction: column;
       justify-content: start;
       width: 100%;
-      margin: auto;
+      margin: 0;
       padding: 0.2rem 1rem;
       font-size: 30px;
   }
@@ -292,7 +296,8 @@
   }
 
   .header .activenavBar {
-      top: 7rem;
+      top: 5.5rem;
+      padding-top: 0;
   }
 }
 
@@ -366,5 +371,11 @@
 
   .header .navBar .navLists {
       column-gap: 2rem;
+  }
+}
+
+@media screen and (max-height: 590px) {
+  .header .activenavBar {
+    height: calc(100vh - 155px);
   }
 }
