@@ -57,7 +57,19 @@
   padding: 20px 0px;
   display: flex;
   justify-content: center;
-  background-color: rgba(148, 139, 152, 0.567); 
+  align-items: center;
+  background-color: rgba(148, 139, 152, 0.567);
+  text-align: center;
+  width: 80vw;
+}
+
+.last4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
 }
 
 #btn2 {
@@ -72,6 +84,27 @@
 .active1 {
   background-color: #ffd700; 
   color: #22103a; 
+}
+
+.schedule-content {
+  background-color: #ffd700;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 10px 0;
+  width: 90vw;
+  text-align: center;
+  width: 80vw;
+}
+
+.schedule-content h2 {
+  color: #22103a;
+  font-size: 26px;
+}
+
+.schedule-content p {
+  color: #22103a;
+  padding: 7px 0;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {

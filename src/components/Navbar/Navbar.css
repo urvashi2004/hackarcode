@@ -310,6 +310,10 @@
       padding: 1.3rem 5%;
   }
 
+  .header .navBar .navLists {
+    overflow-y: hidden;
+  }
+
   .header .navBar .navLists .navItem .navLink {
       color: #ffffff;
       padding: 0 0.2rem;
