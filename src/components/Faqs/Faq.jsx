@@ -22,19 +22,17 @@ const Faq = () => {
         },
         {
             question: "What are the arrangements for Hackers?",
-            answer: `On both nights (9th Feb & 10th Feb) we will have a supervised sleeping space for hackers to rest and sleep at the venue. We have arranged a separate sleeping area for girls, clean washrooms, personal hygiene and sanitary kits, etc. We recommend bringing your own blanket if you need one. We want to make sure that all hackers feel comfortable and safe at the hackathon.
+            answer: `On both nights (24th Aug & 25th Aug) we will have a supervised sleeping space for hackers to rest and sleep at the venue. We have arranged a separate sleeping area for girls, clean washrooms, personal hygiene and sanitary kits, etc. We recommend bringing your own blanket if you need one. We want to make sure that all hackers feel comfortable and safe at the hackathon.
             There will be meals served on the respective days to everyone who checks-in
-            High-tea, and Dinner on 9 Feb
-            Breakfast, Lunch, High-tea, and Dinner on 10 Feb
-            Breakfast and Lunch on 11 Feb`
+            High-tea, and Dinner on 24 Aug and Breakfast on 25 Aug.`
         },
         {
             question: "Can Hackers start working on project in advance?",
-            answer: "No. You can only start working on the projects once hacking begins on 9 Feb after the opening ceremony. Any project with an earlier commit history will be disqualified. However, you can learn the basic tools and technologies you might need before the hackathon."
+            answer: "No. You can only start working on the projects once hacking begins on 24 Aug after the opening ceremony. Any project with an earlier commit history will be disqualified. However, you can learn the basic tools and technologies you might need before the hackathon."
         },
         {
             question: "At what time should I arrive at the hackathon on 25 Aug and at what time can I depart on 26 Aug?",
-            answer: "You are expected to arrive at the hackathon venue by 2 PM IST on Friday, 9 Feb. The estimated departure time from the venue is 7 PM IST on Sunday, 11th Feb. Book your return travel tickets accordingly to ensure you don't miss the Closing Ceremony."
+            answer: "You are expected to arrive at the hackathon venue by 9 AM IST on Saturday, 24 Aug. The estimated departure time from the venue is 2 PM IST on Sunday, 25th Aug. Book your return travel tickets accordingly to ensure you don't miss the Closing Ceremony."
         },
         {
             question: "Is there any resource that can help me to get more info about venue?",

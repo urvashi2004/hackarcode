@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import './Prize.css'
 import { FaIndianRupeeSign } from 'react-icons/fa6'
 import girl from '../../assets/girls.png'
+import game from '../../assets/game.png'
 import star from '../../assets/star.png'
 import cir1 from '../../assets/circle1.png'
 import cir2 from '../../assets/circle2.png'
@@ -28,22 +29,12 @@ const Prize = () => {
           <h1>HackArcode Prizes</h1>
         </div>
         <div className="upper-cont-position">
-          <div className={`second-pos ${(screenWidth<=1200)?"remove":""}`}>
-              <img src={cir2} alt="" />
-              <div className="text-prize">
-                <div className="text-prize-pr1">
-                  <div className="icon"><FaIndianRupeeSign/></div>
-                  <span className='pr'>35k</span>
-                </div> 
-                <p className='paara'>First Runner-Up</p>
-              </div>
-          </div>
           <div className="first-pos">
               <img src={cir1} alt="" />
               <div className="text-prize">
                 <div className="text-prize-pr2">
                   <div className="icon"><FaIndianRupeeSign/></div>
-                  <span className='pr'>50k</span>
+                  <span className='pr'>25k</span>
                 </div> 
                 <p className='paara2'>Winner</p>
               </div>
@@ -53,7 +44,7 @@ const Prize = () => {
               <div className="text-prize">
                 <div className="text-prize-pr1">
                   <div className="icon"><FaIndianRupeeSign/></div>
-                  <span className='pr'>35k</span>
+                  <span className='pr'>15k</span>
                 </div> 
                 <p className='paara'>First Runner-Up</p>
               </div>
@@ -63,7 +54,7 @@ const Prize = () => {
               <div className="text-prize">
                 <div className="text-prize-pr3">
                   <div className="icon"><FaIndianRupeeSign/></div>
-                  <span className='pr'>20k</span>
+                  <span className='pr'>10k</span>
                 </div> 
                 <p className='paara3'>Second Runner-Up</p>
               </div>
@@ -77,7 +68,7 @@ const Prize = () => {
             </div>
             <div className="first-box-down-con">
             <div className="icon"><FaIndianRupeeSign/></div>
-            <p>10,000 to the winning team and additional perks</p>  
+            <p>5,000 to the winning team and additional perks</p>  
             </div>
           </div>
           <div className="first-box">
@@ -87,7 +78,17 @@ const Prize = () => {
             </div>
             <div className="first-box-down-con">
             <div className="icon"><FaIndianRupeeSign/></div>
-            <p>10,000 to the winning team and additional perks</p>  
+            <p>5,000 to the winning team and additional perks</p>  
+            </div>
+          </div>
+          <div className="first-box">
+            <div className="first-box-upp-con">
+              <img src={game} alt="" />
+              <h2>Best Game Development Team</h2>
+            </div>
+            <div className="first-box-down-con">
+            <div className="icon"><FaIndianRupeeSign/></div>
+            <p>5,000 to the winning team and additional perks</p>  
             </div>
           </div>
         </div>
